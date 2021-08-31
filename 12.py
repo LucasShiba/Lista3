@@ -8,5 +8,3 @@ for i in range(numero_alunos):
         maior = nota
 
 print(f'A média é {soma / numero_alunos:.2f}. A maior nota é {maior}')
-
-

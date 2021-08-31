@@ -13,4 +13,4 @@ for _ in range(numero_turmas):
         if maior < nota:
             maior = nota
 
-    print(f'A média é {soma / numero_alunos}. A menor nota é {menor}, e a maior é {maior}.')
+    print(f'A média é {soma / numero_alunos:.2f}. A menor nota é {menor}, e a maior é {maior}.')

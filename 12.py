@@ -7,6 +7,6 @@ for i in range(numero_alunos):
     if nota > maior:
         maior = nota
 
-print(f'A média é {soma / numero_alunos}. A maior nota é {maior}')
+print(f'A média é {soma / numero_alunos:.2f}. A maior nota é {maior}')
 
 
